@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  /*
+    min-width: 1200px;
+	min-height: 800px;
+	*/
+  background-color: black;
+  color: #505AC9;
+  font-family: "Montserrat", san-serif;
+  font-size: 125%;   /* 100% = 16px in font sizes */
+  font-weight: 200;
+  text-rendering: optimizeLegibility;
+}
+
+ul {
+  text-align: center;
+}
+li {
+  margin-bottom: 2%;
+}
+h1 {
+  font-family: "Montserrat", san-serif;
+  text-align: center;
+  font-size: 5.5vw; /* 1vw= 1% of viewport width */
+}
+h4 {
+  font-weight: 200;
+  color: white;
+  margin: 5% 0 8%;
+  text-align: center;
+}
+
+.download_link {
+  color: white;
+  text-decoration: none;
+}
+.download_link:hover {
+  color: #7B83EB;
+}
+
